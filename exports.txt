@@ -1,0 +1,4 @@
+_gkbridge_auth_local_user
+_gkbridge_report_achievement
+_gkbridge_reset_achievements
+

@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B340AAFF1D43631B002690C6 /* gkbridge.h in Headers */ = {isa = PBXBuildFile; fileRef = B340AAFE1D43631B002690C6 /* gkbridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B340AB1B1D4365F1002690C6 /* GKBridgeUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = B340AB191D4365F1002690C6 /* GKBridgeUtil.h */; };
+		B340AB1C1D4365F1002690C6 /* GKBridgeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B340AB1A1D4365F1002690C6 /* GKBridgeUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B340AAF91D43631B002690C6 /* gkbridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = gkbridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B340AAFD1D43631B002690C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B340AAFE1D43631B002690C6 /* gkbridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gkbridge.h; sourceTree = "<group>"; };
+		B340AB191D4365F1002690C6 /* GKBridgeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GKBridgeUtil.h; path = gkbridge.xcodeproj/../GKBridgeUtil.h; sourceTree = SOURCE_ROOT; };
+		B340AB1A1D4365F1002690C6 /* GKBridgeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GKBridgeUtil.m; path = gkbridge.xcodeproj/../GKBridgeUtil.m; sourceTree = SOURCE_ROOT; };
+		B340AB1D1D436D91002690C6 /* exports.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = exports.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B340AAF51D43631B002690C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B340AAEF1D43631A002690C6 = {
+			isa = PBXGroup;
+			children = (
+				B340AAFB1D43631B002690C6 /* gkbridge */,
+				B340AAFA1D43631B002690C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B340AAFA1D43631B002690C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B340AAF91D43631B002690C6 /* gkbridge.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B340AAFB1D43631B002690C6 /* gkbridge */ = {
+			isa = PBXGroup;
+			children = (
+				B340AB191D4365F1002690C6 /* GKBridgeUtil.h */,
+				B340AB1A1D4365F1002690C6 /* GKBridgeUtil.m */,
+				B340AAFE1D43631B002690C6 /* gkbridge.h */,
+				B340AAFC1D43631B002690C6 /* Supporting Files */,
+			);
+			path = gkbridge;
+			sourceTree = "<group>";
+		};
+		B340AAFC1D43631B002690C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B340AB1D1D436D91002690C6 /* exports.txt */,
+				B340AAFD1D43631B002690C6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B340AAF61D43631B002690C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B340AAFF1D43631B002690C6 /* gkbridge.h in Headers */,
+				B340AB1B1D4365F1002690C6 /* GKBridgeUtil.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B340AAF81D43631B002690C6 /* gkbridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B340AB0F1D43631B002690C6 /* Build configuration list for PBXNativeTarget "gkbridge" */;
+			buildPhases = (
+				B340AAF41D43631B002690C6 /* Sources */,
+				B340AAF51D43631B002690C6 /* Frameworks */,
+				B340AAF61D43631B002690C6 /* Headers */,
+				B340AAF71D43631B002690C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gkbridge;
+			productName = gkbridge;
+			productReference = B340AAF91D43631B002690C6 /* gkbridge.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B340AAF01D43631B002690C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Kalio;
+				TargetAttributes = {
+					B340AAF81D43631B002690C6 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = B340AAF31D43631B002690C6 /* Build configuration list for PBXProject "gkbridge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B340AAEF1D43631A002690C6;
+			productRefGroup = B340AAFA1D43631B002690C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B340AAF81D43631B002690C6 /* gkbridge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B340AAF71D43631B002690C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B340AAF41D43631B002690C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B340AB1C1D4365F1002690C6 /* GKBridgeUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B340AB0D1D43631B002690C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B340AB0E1D43631B002690C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B340AB101D43631B002690C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = gkbridge/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B340AB111D43631B002690C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXPORTED_SYMBOLS_FILE[arch=*]" = exports.txt;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = gkbridge/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B340AAF31D43631B002690C6 /* Build configuration list for PBXProject "gkbridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B340AB0D1D43631B002690C6 /* Debug */,
+				B340AB0E1D43631B002690C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B340AB0F1D43631B002690C6 /* Build configuration list for PBXNativeTarget "gkbridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B340AB101D43631B002690C6 /* Debug */,
+				B340AB111D43631B002690C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B340AAF01D43631B002690C6 /* Project object */;
+}
